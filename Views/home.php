@@ -1,2 +1,2 @@
-Esta é a página principal do site
-<a href="camisa">Veja a página camisa</a>
+Esta é a página principal do site <br>
+<a href="noticia">Veja a página camisa</a>

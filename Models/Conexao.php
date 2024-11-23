@@ -6,7 +6,7 @@ class Conexao{
     public static function getConexao(){
         Global $instancia;
         if(!isset($instancia)){
-            $dbname = "";
+            $dbname = "aula5_mvc";
             $host = "localhost";
             $user = "root";
             $senha = "";
