@@ -6,15 +6,15 @@ class noticiaController extends Controller{
         $this->carregarTemplate("noticia",  array(), $dados);
     }
 
-    public function entreterimento(){
-        echo "Página entreteniento";
-        exit;
-        $this->carregarTemplate("entreterimento");
+    public function entreterimento($id_noticia){
+        $c = new noticia();
+        $dados = $c->noticiaPorId($id_noticia);
+        $this->carregarTemplate("entreterimento",$dados);
     }
 
-    public function futebol(){
-        echo "Página futebol";
-        exit;
-        $this->carregarTemplate("futebol");
+    public function futebol($id_noticia){
+        $c = new noticia();
+        $dados = $c->noticiaPorId($id_noticia);
+        $this->carregarTemplate("futebol",$dados);
     }
 }

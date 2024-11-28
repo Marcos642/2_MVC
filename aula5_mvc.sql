@@ -31,4 +31,4 @@ INSERT INTO noticia(titulo,nome_imagem,texto) VALUES
 -- Insert dados in `tipo_noticia`
 --
 INSERT INTO tipo_noticia(descricao) VALUES 
-('Entreterimento'),('Futebol');
+('entreterimento'),('futebol');
