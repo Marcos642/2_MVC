@@ -21,6 +21,6 @@ Pagina de noticias <br>
 
 <pre>
     <?php
-        # print_r($this->dados2)
+    print_r($this->dados2)
     ?>
 </pre>
